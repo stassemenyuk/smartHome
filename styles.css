@@ -25,7 +25,7 @@ img {
 .left {
    height: 100%;
    flex: 0 1 62%;
-   background-image: url(assets/img/Bitmap.png);
+   background: url(assets/img/right_background.png) 0 0/100% 100% no-repeat;
    padding: 56px 0 56px 53px;
    display: flex;
    flex-direction: column;
