@@ -13,20 +13,52 @@ body {
 
 .main {
    width: 100%;
-   height: 900px;
+   height: 100%;
    display: flex;
    background: #242e42;
 }
 
-.content {
-   margin: 56px 0 56px 53px;
+.left {
+   height: 100%;
+   flex: 0 1 62%;
+   background: url(assets/img/Bitmap.png);
 }
 
-.left {
-   flex: 0 0 62%;
-   background: url(assets/img/Bitmap.png);
+.content {
+   height: 100%;
+   padding: 56px 0 56px 53px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 .right {
    flex: 0 0 38%;
+}
+
+.logo {
+   font-size: 32px;
+}
+
+.logo__thin {
+   font-weight: 300;
+}
+
+.text {
+   height: 60px;
+   font-size: 50px;
+   font-weight: 300;
+   line-height: 60px;
+}
+
+.video {
+   display: flex;
+   align-items: center;
+}
+
+.video__link {
+   color: #1f8efa;
+   font-size: 12px;
+   line-height: 14px;
+   margin-left: 15px;
 }
