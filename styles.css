@@ -111,6 +111,10 @@ label {
    border-radius: 5px;
 }
 
+.blue::placeholder {
+   color: #1f8efa;
+}
+
 .sign__in__btn {
    height: 32px;
    width: 327px;
