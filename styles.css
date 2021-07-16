@@ -11,6 +11,10 @@ body {
    color: #fff;
 }
 
+img {
+   max-width: 100%;
+}
+
 .main {
    width: 100%;
    height: 100%;
@@ -21,7 +25,7 @@ body {
 .left {
    height: 100%;
    flex: 0 1 62%;
-   background: url(assets/img/Bitmap.png);
+   background-image: url(assets/img/Bitmap.png);
    padding: 56px 0 56px 53px;
    display: flex;
    flex-direction: column;
@@ -30,20 +34,29 @@ body {
 
 .right {
    flex: 0 0 38%;
+   padding: 120px 100px 50px 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .logo {
-   font-size: 32px;
-}
-
-.logo__thin {
-   font-weight: 300;
+   height: 36px;
+   width: 160px;
 }
 
 .text {
    font-size: 50px;
    font-weight: 300;
    line-height: 60px;
+}
+
+.text::before {
+   content: "";
+   width: 39px;
+   height: 39px;
+   background: url(assets/img/part_logo.png);
+   transform: rotate(37deg);
 }
 
 .video {
@@ -54,6 +67,20 @@ body {
 .video__link {
    color: #1f8efa;
    font-size: 12px;
-   line-height: 14px;
+   text-decoration: none;
    margin-left: 15px;
+}
+
+.logo__S {
+   width: 46.7px;
+   height: 84.66px;
+   margin-bottom: 60px;
+}
+
+.title {
+   height: 36px;
+   color: #fff;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 30px;
+   line-height: 36px;
 }
