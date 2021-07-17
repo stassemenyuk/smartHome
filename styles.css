@@ -11,6 +11,11 @@ body {
    color: #fff;
 }
 
+a,
+a:visited {
+   text-decoration: none;
+}
+
 img {
    max-width: 100%;
 }
