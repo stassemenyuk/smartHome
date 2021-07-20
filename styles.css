@@ -21,8 +21,7 @@ img {
 }
 
 .main {
-   width: 100%;
-   height: 100%;
+   height: 100vh;
    display: flex;
    background: #242e42;
 }
@@ -40,10 +39,6 @@ img {
 .right {
    flex: 0 0 38%;
    padding: 120px 100px 50px 100px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
 }
 
 .logo {
@@ -77,12 +72,20 @@ img {
    margin-left: 15px;
 }
 
-.logo__S {
+.form_block {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form_block__logo {
+   margin-bottom: 10vh;
    width: 46.7px;
    height: 84.66px;
 }
 
-.title {
+.form_block__title {
+   margin-bottom: 4.5vh;
    height: 36px;
    color: #fff;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -91,14 +94,16 @@ img {
 }
 
 input,
-label {
+label,
+button {
    display: block;
 }
 
-.sign__in {
+.form_block__sign__in {
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: stretch;
+   margin-bottom: 7.3vh;
 }
 
 .form_element {
@@ -107,22 +112,17 @@ label {
 }
 
 .blue {
+   padding: 5px;
    background: transparent;
-   height: 31px;
-   width: 327px;
+   width: 100%;
    color: #1f8efa;
    font-size: 12px;
    border: 1px #1f8efa solid;
    border-radius: 5px;
 }
 
-.blue::placeholder {
-   color: #1f8efa;
-}
-
 .sign__in__btn {
    height: 32px;
-   width: 327px;
    background-color: #1f8efa;
    font-size: 12px;
    font-weight: 500;
@@ -133,9 +133,10 @@ label {
    font-size: 12px;
    color: #657d95;
    line-height: 14px;
+   margin-bottom: 20vh;
 }
 
-.right__footer {
+.form_block__footer {
    display: flex;
 }
 
