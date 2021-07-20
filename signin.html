@@ -50,6 +50,7 @@
                         class="blue"
                         id="email_in"
                         placeholder="Placeholder"
+                        pattern="^[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.+[a-zA-Z]+$"
                         required
                      />
                   </div>
@@ -60,6 +61,8 @@
                         class="blue"
                         id="password_in"
                         placeholder="Placeholder"
+                        inputmode="numeric"
+                        pattern="[0-9]{6,10}"
                         required
                      />
                   </div>
@@ -100,6 +103,7 @@
                         class="blue"
                         id="email_up"
                         placeholder="Placeholder"
+                        pattern="^[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.+[a-zA-Z]+$"
                         required
                      />
                   </div>
@@ -110,6 +114,7 @@
                         class="blue"
                         id="password_up"
                         placeholder="Placeholder"
+                        pattern="[0-9]{6,10}"
                         required
                      />
                   </div>
@@ -120,16 +125,18 @@
                         class="blue"
                         id="confirm_up"
                         placeholder="Placeholder"
+                        pattern="[0-9]{6,10}"
                         required
                      />
                   </div>
                   <div class="fullname form_element">
                      <label for="fullname_up">Full Name</label>
                      <input
-                        type="password"
+                        type="text"
                         class="blue"
                         id="fullname_up"
                         placeholder="Placeholder"
+                        pattern="^[a-zA-Zа-яА-Я]+\s+[a-zA-Zа-яА-Я]+$"
                         required
                      />
                   </div>
