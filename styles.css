@@ -117,8 +117,18 @@ button {
    width: 100%;
    color: #1f8efa;
    font-size: 12px;
+   outline: none;
+   border: 1px #657d95 solid;
+   border-radius: 5px;
+}
+
+.blue:focus {
    border: 1px #1f8efa solid;
    border-radius: 5px;
+}
+
+.blue:focus::placeholder {
+   color: #1f8efa;
 }
 
 .sign__in__btn {
@@ -127,6 +137,7 @@ button {
    font-size: 12px;
    font-weight: 500;
    color: #fff;
+   outline: none;
 }
 
 .forgot__password {
