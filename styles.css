@@ -22,6 +22,7 @@ img {
 
 .main {
    height: 100vh;
+   width: 100vw;
    display: flex;
    background: #242e42;
 }
@@ -30,7 +31,7 @@ img {
    /*height: 100%;*/
    flex: 0 1 62%;
    background: url(assets/img/right_background.png) 0 0/100% 100% no-repeat;
-   padding: 56px 0 56px 53px;
+   padding: 4% 0 4% 4%;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -39,7 +40,7 @@ img {
 .right {
    flex: 0 0 38%;
    /*height: 100vh;*/
-   padding: 120px 100px 50px 100px;
+   padding: 4% 3% 2% 3%;
 }
 
 .logo {
@@ -62,7 +63,7 @@ img {
    color: #1f8efa;
    font-size: 12px;
    text-decoration: none;
-   margin-left: 15px;
+   margin-left: 1.5%;
 }
 
 .form_block {
@@ -96,7 +97,7 @@ button {
 }
 
 .form_element {
-   margin-bottom: 25px; /* 25px */
+   margin-bottom: 6%; /* 25px */
    font-size: 17px;
 }
 
@@ -147,12 +148,14 @@ button {
 
 .form_block__footer {
    display: flex;
+   width: 70%;
+   justify-content: center;
 }
 
 .dont__have {
    font-size: 12px;
    color: #70889e;
-   margin-right: 20px;
+   margin-right: 4%;
 }
 
 .sign__up__link {
@@ -162,7 +165,7 @@ button {
 }
 
 .description {
-   margin-top: 16px; /* 16px */
+   margin-top: 4%; /* 16px */
    font-size: 12px;
    color: #869aac;
    /*margin-bottom: 88px;  88px */
@@ -170,7 +173,7 @@ button {
 }
 
 .have__an {
-   margin-right: 5px;
+   margin-right: 2%;
    font-size: 12px;
    color: #869aac;
 }
