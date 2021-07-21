@@ -67,7 +67,11 @@ img {
 }
 
 .form_block {
-   display: none;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .form_block__logo {
@@ -182,14 +186,6 @@ button {
    color: #1f8efa;
    font-size: 12px;
    cursor: pointer;
-}
-
-.active {
-   height: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
 }
 
 .form_block__form {
