@@ -22,7 +22,7 @@ img {
 
 .main {
    height: 100vh;
-   width: 100vw;
+   min-height: 600px;
    display: flex;
    background: #242e42;
 }
