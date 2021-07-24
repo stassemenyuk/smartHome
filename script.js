@@ -4,10 +4,10 @@ const title = document.querySelector(".form_block__title");
 const question = document.querySelector(".dont__have");
 const forgotPassword = document.querySelector(".forgot__password");
 
-let counter = 1;
+let currentForm = "signIn";
 
 function switchForm() {
-   if (counter === 1) {
+   if (currentForm === "signIn") {
       title.innerHTML = "Sign Up";
       question.innerHTML = "Already have an account?";
       switchButton.innerHTML = "Log in";
@@ -19,7 +19,6 @@ function switchForm() {
                         class="blue"
                         id="email_up"
                         placeholder="Placeholder"
-                        pattern="^[a-zA-Z0-9\\.]+@[a-zA-Z0-9]+\\.+[a-zA-Z]+$"
                         required
                      />
                   </div>
@@ -30,7 +29,6 @@ function switchForm() {
                         class="blue"
                         id="password_up"
                         placeholder="Placeholder"
-                        pattern="[0-9]{6,10}"
                         required
                      />
                   </div>
@@ -41,7 +39,6 @@ function switchForm() {
                         class="blue"
                         id="confirm_up"
                         placeholder="Placeholder"
-                        pattern="[0-9]{6,10}"
                         required
                      />
                   </div>
@@ -52,7 +49,6 @@ function switchForm() {
                         class="blue"
                         id="fullname_up"
                         placeholder="Placeholder"
-                        pattern="^[a-zA-Zа-яА-Я]+\\s+[a-zA-Zа-яА-Я]+$"
                         required
                      />
                   </div>
@@ -68,7 +64,7 @@ function switchForm() {
                      By clicking Join now, you agree to the LinkedIn User <br />
                      Agreement, Privacy Policy, and Cookie Policy
                   </div>`;
-      counter++;
+      currentForm = "signUp";
    } else {
       title.innerHTML = "Sign In";
       question.innerHTML = "Don't have an <br /> account?";
@@ -81,7 +77,6 @@ function switchForm() {
                         class="blue"
                         id="email_in"
                         placeholder="Placeholder"
-                        pattern="^[a-zA-Z0-9\\.]+@[a-zA-Z0-9]+\\.+[a-zA-Z]+$"
                         required
                      />
                   </div>
@@ -93,7 +88,6 @@ function switchForm() {
                         id="password_in"
                         placeholder="Placeholder"
                         inputmode="numeric"
-                        pattern="[0-9]{6,10}"
                         required
                      />
                   </div>
@@ -105,7 +99,7 @@ function switchForm() {
                         required
                      />
                   </div>`;
-      counter--;
+      currentForm = "signIn";
    }
 }
 
