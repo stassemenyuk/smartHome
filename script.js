@@ -21,6 +21,7 @@ function switchForm() {
                         placeholder="Placeholder"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="password form_element">
                      <label for="password_up">Password</label>
@@ -31,6 +32,7 @@ function switchForm() {
                         placeholder="Placeholder"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="confirm form_element">
                      <label for="confirm_up">Confirm Password</label>
@@ -41,6 +43,7 @@ function switchForm() {
                         placeholder="Placeholder"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="fullname form_element">
                      <label for="fullname_up">Full Name</label>
@@ -51,6 +54,7 @@ function switchForm() {
                         placeholder="Placeholder"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="sumbit">
                      <input
@@ -59,6 +63,7 @@ function switchForm() {
                         value="SIGN UP"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="description">
                      By clicking Join now, you agree to the LinkedIn User <br />
@@ -79,6 +84,7 @@ function switchForm() {
                         placeholder="Placeholder"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="password form_element">
                      <label for="password_in">Password</label>
@@ -90,6 +96,7 @@ function switchForm() {
                         inputmode="numeric"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="sumbit">
                      <input

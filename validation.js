@@ -23,9 +23,11 @@ setInterval(() => {
          if (!event.target.checkValidity()) {
             item.classList.remove("blue");
             item.classList.add("red");
+            item.nextElementSibling.innerHTML = "некоректно введенные данные";
          } else {
             item.classList.add("blue");
             item.classList.remove("red");
+            item.nextElementSibling.innerHTML = "";
          }
       });
    });
