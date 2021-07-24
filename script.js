@@ -16,7 +16,7 @@ function switchForm() {
                      <label for="email_up">Email</label>
                      <input
                         type="email"
-                        class="blue"
+                        class="blue default_input"
                         id="email_up"
                         placeholder="Placeholder"
                         required
@@ -26,7 +26,7 @@ function switchForm() {
                      <label for="password_up">Password</label>
                      <input
                         type="password"
-                        class="blue"
+                        class="blue default_input"
                         id="password_up"
                         placeholder="Placeholder"
                         required
@@ -36,7 +36,7 @@ function switchForm() {
                      <label for="confirm_up">Confirm Password</label>
                      <input
                         type="password"
-                        class="blue"
+                        class="blue default_input"
                         id="confirm_up"
                         placeholder="Placeholder"
                         required
@@ -46,7 +46,7 @@ function switchForm() {
                      <label for="fullname_up">Full Name</label>
                      <input
                         type="text"
-                        class="blue"
+                        class="blue default_input"
                         id="fullname_up"
                         placeholder="Placeholder"
                         required
@@ -74,7 +74,7 @@ function switchForm() {
                      <label for="email_in">Email</label>
                      <input
                         type="email"
-                        class="blue"
+                        class="blue default_input"
                         id="email_in"
                         placeholder="Placeholder"
                         required
@@ -84,7 +84,7 @@ function switchForm() {
                      <label for="password_in">Password</label>
                      <input
                         type="password"
-                        class="blue"
+                        class="blue default_input"
                         id="password_in"
                         placeholder="Placeholder"
                         inputmode="numeric"
