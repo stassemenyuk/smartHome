@@ -22,7 +22,7 @@ img {
 
 .main {
    height: 100vh;
-   width: 100vw;
+   min-height: 600px;
    display: flex;
    background: #242e42;
 }
@@ -105,7 +105,7 @@ button {
    font-size: 17px;
 }
 
-.blue {
+.default_input {
    padding: 5px;
    background: transparent;
    width: 100%;
@@ -190,4 +190,15 @@ button {
 
 .form_block__form {
    width: 70%;
+}
+
+.red {
+   border: 1px #e60f0f solid;
+   border-radius: 5px;
+   color: #e60f0f;
+}
+
+.error {
+   font-size: 12px;
+   color: #e60f0f;
 }
