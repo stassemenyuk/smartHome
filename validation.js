@@ -19,7 +19,7 @@ setInterval(() => {
    });
 
    inputs.forEach((item) => {
-      item.addEventListener("change", (event) => {
+      item.addEventListener("input", (event) => {
          if (!event.target.checkValidity()) {
             item.classList.remove("blue");
             item.classList.add("red");
