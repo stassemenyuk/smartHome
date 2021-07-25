@@ -28,7 +28,7 @@ main {
 }
 
 .header {
-  padding: 7px 29px 25px 57px;
+  padding: 0.4% 1.6% 1.5% 3.2%;
   border-bottom: 2px solid #20293c;
 }
 
@@ -37,7 +37,7 @@ main {
 }
 
 aside {
-  padding-top: 35px;
+  padding-top: 2%;
   flex: 0 0 13.5%;
   display: flex;
   flex-direction: column;
@@ -55,24 +55,24 @@ aside {
 
 .main__content {
   flex: 0 0 86.5%;
-  padding: 47px;
+  padding: 1% 5% 1% 2%;
 }
 
 .aside__link {
   display: flex;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 10%;
   cursor: pointer;
 }
 
 .aside__link div {
-  margin-left: 28px;
+  margin-left: 10%;
 }
 
 .aside__link__active {
   border-radius: 0 8px 8px 0;
   background-color: rgba(19, 26, 39, 0.2);
-  padding: 17px 0;
+  padding: 4% 0;
   border-left: 8px solid #1f8efa;
   color: #1f8efa;
 }
@@ -85,7 +85,7 @@ aside {
 .main__content__block {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 1%;
 }
 
 .main__content__block__status,
@@ -130,11 +130,11 @@ aside {
 
 .main__content__block__status {
   flex: 0 0 100%;
-  margin-top: 10px;
+  margin-top: 0.5%;
 }
 
 .main__content__block__status__blocks {
-  padding: 10px 0 30px;
+  padding: 0.5% 0 1.5%;
   display: flex;
 }
 
@@ -161,6 +161,10 @@ aside {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.main__content__block__status__block__content:last-child {
+  border-right: none;
+}
+
 .main__content__block__status__block__content__number {
   font-size: 50px;
   color: #fff;
@@ -182,8 +186,14 @@ aside {
 
 .options {
   cursor: pointer;
+  padding: 0 5px;
 }
 
 .content {
   padding: 8px;
+}
+
+.footer {
+  border-top: 3px #2f3b52 solid;
+  padding: 1.25%;
 }
