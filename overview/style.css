@@ -15,6 +15,16 @@ body {
 .wrapper {
    height: 100vh;
    background: #242e42;
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+   flex: 1 0 auto;
+}
+
+.footer {
+   flex: 0 0 auto;
 }
 
 .header {
@@ -27,10 +37,16 @@ main {
 }
 
 aside {
+   padding-top: 35px;
    flex: 0 0 13.5%;
    display: flex;
    flex-direction: column;
-   align-items: center;
+}
+
+.aside__home-name,
+.aside__logo,
+.aside__home-address {
+   align-self: center;
 }
 
 .aside__home-name {
@@ -39,4 +55,59 @@ aside {
 
 .main__content {
    flex: 0 0 86.5%;
+   padding: 47px;
+}
+
+.aside__link {
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+   cursor: pointer;
+}
+
+.aside__link div {
+   margin-left: 28px;
+}
+
+.aside__link__active {
+   border-radius: 0 8px 8px 0;
+   background-color: rgba(19, 26, 39, 0.2);
+   padding: 17px 0;
+   border-left: 8px solid #1f8efa;
+   color: #1f8efa;
+}
+
+.main__content__header {
+   font-size: 30px;
+   color: #fff;
+}
+
+.main__content__block {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.main__content__block__status,
+.main__content__block__camera,
+.main__content__block__consumption {
+   background: #2f3b52;
+}
+
+.main__content__block__camera {
+   flex: 0 0 60%;
+   margin-right: 1%;
+   padding: 8px;
+}
+
+.main__content__block__consumption {
+   flex: 0 0 39%;
+}
+
+.main__content__block__status {
+   flex: 0 0 100%;
+   margin-top: 10px;
+}
+
+.main__content__block__status__blocks {
+   display: flex;
 }
