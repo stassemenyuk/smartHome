@@ -47,24 +47,24 @@
                      <label for="email_in">Email</label>
                      <input
                         type="email"
-                        class="blue"
+                        class="blue default_input"
                         id="email_in"
                         placeholder="Placeholder"
-                        pattern="^[a-zA-Z0-9\.]+@[a-zA-Z0-9]+\.+[a-zA-Z]+$"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="password form_element">
                      <label for="password_in">Password</label>
                      <input
                         type="password"
-                        class="blue"
+                        class="blue default_input"
                         id="password_in"
                         placeholder="Placeholder"
                         inputmode="numeric"
-                        pattern="[0-9]{6,10}"
                         required
                      />
+                     <div class="error"></div>
                   </div>
                   <div class="sumbit">
                      <input
@@ -93,5 +93,6 @@
          </div>
       </div>
       <script src="script.js"></script>
+      <script src="validation.js"></script>
    </body>
 </html>
