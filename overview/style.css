@@ -411,3 +411,33 @@ input:checked + .slider:before {
 .date {
   margin-right: 20px;
 }
+
+.user {
+  display: flex;
+  padding: 25px 50px;
+  align-items: center;
+}
+
+.user div {
+  margin: 0 10px;
+}
+
+.user svg {
+  width: 20px;
+  height: 20px;
+  fill: #657d95;
+  cursor: pointer;
+}
+
+.user__storage {
+  display: flex;
+  align-items: center;
+}
+
+.user__storage svg {
+  cursor: initial;
+}
+
+.active_notification {
+  fill: #1f8efa;
+}
