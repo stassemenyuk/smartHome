@@ -208,9 +208,35 @@ aside {
   justify-content: space-around;
 }
 
-.donut-chart {
-  width: 100%;
-  height: 100%;
+.donut__main {
+  fill: #fff;
+  font: 300 7px Roboto;
+}
+
+.donut__under {
+  font: 300 3px Roboto;
+  fill: #869aac;
+  text-transform: uppercase;
+}
+
+.consumption__device-limit__content__circle {
+  display: flex;
+  justify-content: center;
+}
+
+.device-limit__big {
+  font: 300 15px Roboto;
+  fill: #fff;
+}
+.device-limit__small {
+  font: 300 3px Roboto;
+  fill: #fff;
+}
+
+.days {
+  font: 300 11px Roboto;
+  fill: #fff;
+  text-transform: uppercase;
 }
 
 .room-list,
@@ -268,6 +294,7 @@ aside {
   border-radius: 50px;
   text-transform: uppercase;
   font-weight: 200;
+  cursor: pointer;
 }
 
 .status {
