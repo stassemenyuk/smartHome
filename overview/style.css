@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #869aac;
   font-size: 12px;
+  font-weight: 300;
 }
 
 .wrapper {
@@ -17,8 +18,8 @@ body {
   background: #242e42;
   display: flex;
   flex-direction: column;
-  min-height: 700px;
-  min-width: 950px;
+  min-height: 870px;
+  min-width: 1030px;
 }
 
 main {
@@ -30,8 +31,25 @@ main {
 }
 
 .header {
-  padding: 0.4% 1.6% 1.5% 3.2%;
   border-bottom: 2px solid #20293c;
+  display: flex;
+}
+
+.header__logo {
+  padding: 0.4% 1.6% 1.5% 3.2%;
+  border-right: 2px solid #20293c;
+}
+
+.header__menu {
+  padding: 25px;
+}
+
+.header__right {
+  flex: 0 1 auto;
+  width: 100%;
+  border-left: 2px solid #20293c;
+  display: flex;
+  justify-content: flex-end;
 }
 
 main {
@@ -123,6 +141,28 @@ aside {
 
 .camera__content__video {
   width: 100%;
+  position: relative;
+}
+
+.recording {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  font-size: 17px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  padding: 5px;
+}
+
+.recording__icon {
+  margin-right: 5px;
+  align-self: center;
+}
+
+.recording__icon svg {
+  width: 15px;
+  height: 15px;
 }
 
 .consumption {
@@ -174,7 +214,6 @@ aside {
   letter-spacing: 0.7px;
   color: #869aac;
   text-transform: uppercase;
-  font-weight: 900;
 }
 
 .status__block__content {
@@ -183,10 +222,6 @@ aside {
   align-items: center;
   width: 100%;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.status__block__content:last-child {
-  border-right: none;
 }
 
 .status__number {
@@ -211,7 +246,12 @@ aside {
 .options {
   cursor: pointer;
   padding: 0 5px;
-  align-items: center;
+}
+
+.options svg {
+  height: 15px;
+  width: 15px;
+  fill: #98a7b9;
 }
 
 .content {
@@ -339,4 +379,35 @@ input:checked + .slider:before {
 
 .aside__link__active .aside__link__icon svg {
   fill: #1f8efa;
+}
+
+.add_new {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.add_new svg {
+  width: 42px;
+  height: 42px;
+}
+
+.status__measures__icon svg {
+  width: 9.33px;
+  height: 9.33px;
+  fill: #869aac;
+}
+
+.cameras_time {
+  font-size: 17px;
+  color: #fff;
+  position: absolute;
+  top: 14px;
+  left: 7.5px;
+  display: flex;
+  font-weight: 200;
+}
+
+.date {
+  margin-right: 20px;
 }

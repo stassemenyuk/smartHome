@@ -19,6 +19,10 @@
         <div class="header__logo">
           <img src="img/Main_logo.png" alt="" height="35.57px" width="160.15px" />
         </div>
+        <div class="header__menu">asf</div>
+        <div class="header__right">
+          <div class="user">asf</div>
+        </div>
       </header>
       <main>
         <aside>
@@ -100,11 +104,25 @@
               <div class="camera__header title">
                 <div class="camera__header__text">Camera</div>
                 <div class="camera__header__options options">
-                  <img src="img/icons/icon - options.png" alt="" width="3px" height="15px" />
+                  <svg>
+                    <use xlink:href="#options"></use>
+                  </svg>
                 </div>
               </div>
               <div class="camera__content content">
                 <div class="camera__content__video">
+                  <div class="cameras_time">
+                    <div class="date">12/05/2018</div>
+                    <div class="time">09:43AM</div>
+                  </div>
+                  <div class="recording">
+                    <div class="recording__icon">
+                      <svg>
+                        <use xlink:href="#recording"></use>
+                      </svg>
+                    </div>
+                    <div class="recording__text">Recording</div>
+                  </div>
                   <img src="img/camera.jpg" width="100%" />
                 </div>
               </div>
@@ -114,7 +132,9 @@
                 <div class="consumption__by-room__header title">
                   <div class="consumption__by-room__header__text">Consumption by room</div>
                   <div class="consumption__by-room__header__options options">
-                    <img src="img/icons/icon - options.png" alt="" width="3px" height="15px" />
+                    <svg>
+                      <use xlink:href="#options"></use>
+                    </svg>
                   </div>
                 </div>
                 <div class="consumption__by-room__content">
@@ -125,7 +145,9 @@
                 <div class="consumption__by-day__header title">
                   <div class="consumption__by-day__header__text">Consumption by day</div>
                   <div class="consumption__by-day__header__options options">
-                    <img src="img/icons/icon - options.png" alt="" width="3px" height="15px" />
+                    <svg>
+                      <use xlink:href="#options"></use>
+                    </svg>
                   </div>
                 </div>
               </div>
@@ -133,7 +155,9 @@
                 <div class="consumption__device-limit__header title">
                   <div class="consumption__device-limit__header__text">Device limit</div>
                   <div class="consumption__device-limit__header__options options">
-                    <img src="img/icons/icon - options.png" alt="" width="3px" height="15px" />
+                    <svg>
+                      <use xlink:href="#options"></use>
+                    </svg>
                   </div>
                 </div>
               </div>
@@ -142,7 +166,9 @@
               <div class="status__header title">
                 <div class="status__header__text">Status by units</div>
                 <div class="status__header__options options">
-                  <img src="img/icons/icon - options.png" alt="" width="3px" height="15px" />
+                  <svg>
+                    <use xlink:href="#options"></use>
+                  </svg>
                 </div>
               </div>
               <div class="status__blocks">
@@ -153,7 +179,9 @@
                     <div class="status__measures">
                       <div class="status__measures__text">W</div>
                       <div class="status__measures__icon">
-                        <img src="img/icons/up.png" alt="" width="9.33px" height="9.33px" />
+                        <svg>
+                          <use xlink:href="#up"></use>
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -165,7 +193,9 @@
                     <div class="status__measures">
                       <div class="status__measures__text">°F</div>
                       <div class="status__measures__icon">
-                        <img src="img/icons/up.png" alt="" width="9.33px" height="9.33px" />
+                        <svg>
+                          <use xlink:href="#up"></use>
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -177,7 +207,9 @@
                     <div class="status__measures">
                       <div class="status__measures__text">°F</div>
                       <div class="status__measures__icon">
-                        <img src="img/icons/down.png" alt="" width="9.33px" height="9.33px" />
+                        <svg>
+                          <use xlink:href="#down"></use>
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -189,7 +221,9 @@
                     <div class="status__measures">
                       <div class="status__measures__text">CF</div>
                       <div class="status__measures__icon">
-                        <img src="img/icons/up.png" alt="" width="9.33px" height="9.33px" />
+                        <svg>
+                          <use xlink:href="#up"></use>
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -201,7 +235,9 @@
                     <div class="status__measures">
                       <div class="status__measures__text">MBPS</div>
                       <div class="status__measures__icon">
-                        <img src="img/icons/down.png" alt="" width="9.33px" height="9.33px" />
+                        <svg>
+                          <use xlink:href="#down"></use>
+                        </svg>
                       </div>
                     </div>
                   </div>
@@ -214,7 +250,11 @@
       <footer class="footer">
         <div class="footer__cards">
           <div class="footer__card__add-new">
-            <button class="add_new"></button>
+            <button class="add_new">
+              <svg>
+                <use xlink:href="#plus"></use>
+              </svg>
+            </button>
           </div>
           <div class="footer__card">
             <div class="footer__card__content">
@@ -496,6 +536,76 @@
 			C512,220.1,507.2,214.1,500.6,212.6z M255,332c-41.4,0-75-33.6-75-75c0-41.4,33.6-75,75-75c41.4,0,75,33.6,75,75
 			C330,298.4,296.4,332,255,332z"
             />
+          </g>
+        </g>
+      </symbol>
+      <symbol id="plus" viewBox="0 0 512 512">
+        <path
+          d="m256 0c-141.164062 0-256 114.835938-256 256s114.835938 256 256 256 256-114.835938 256-256-114.835938-256-256-256zm0 0"
+          fill="#2196f3"
+        />
+        <path
+          d="m368 277.332031h-90.667969v90.667969c0 11.777344-9.554687 21.332031-21.332031 21.332031s-21.332031-9.554687-21.332031-21.332031v-90.667969h-90.667969c-11.777344 0-21.332031-9.554687-21.332031-21.332031s9.554687-21.332031 21.332031-21.332031h90.667969v-90.667969c0-11.777344 9.554687-21.332031 21.332031-21.332031s21.332031 9.554687 21.332031 21.332031v90.667969h90.667969c11.777344 0 21.332031 9.554687 21.332031 21.332031s-9.554687 21.332031-21.332031 21.332031zm0 0"
+          fill="#fafafa"
+        />
+      </symbol>
+      <symbol id="up" viewBox="0 0 512.171 512.171">
+        <g>
+          <g>
+            <path
+              d="M476.723,216.64L263.305,3.115C261.299,1.109,258.59,0,255.753,0c-2.837,0-5.547,1.131-7.552,3.136L35.422,216.64
+			c-3.051,3.051-3.947,7.637-2.304,11.627c1.664,3.989,5.547,6.571,9.856,6.571h117.333v266.667c0,5.888,4.779,10.667,10.667,10.667
+			h170.667c5.888,0,10.667-4.779,10.667-10.667V234.837h116.885c4.309,0,8.192-2.603,9.856-6.592
+			C480.713,224.256,479.774,219.691,476.723,216.64z"
+            />
+          </g>
+        </g>
+      </symbol>
+      <symbol id="down" viewBox="0 0 512.171 512.171">
+        <g>
+          <g>
+            <path
+              d="M479.046,283.925c-1.664-3.989-5.547-6.592-9.856-6.592H352.305V10.667C352.305,4.779,347.526,0,341.638,0H170.971
+			c-5.888,0-10.667,4.779-10.667,10.667v266.667H42.971c-4.309,0-8.192,2.603-9.856,6.571c-1.643,3.989-0.747,8.576,2.304,11.627
+			l212.8,213.504c2.005,2.005,4.715,3.136,7.552,3.136s5.547-1.131,7.552-3.115l213.419-213.504
+			C479.793,292.501,480.71,287.915,479.046,283.925z"
+            />
+          </g>
+        </g>
+      </symbol>
+      <symbol id="options" viewBox="0 0 384 384">
+        <g>
+          <g>
+            <circle cx="192" cy="42.667" r="42.667" />
+          </g>
+        </g>
+        <g>
+          <g>
+            <circle cx="192" cy="192" r="42.667" />
+          </g>
+        </g>
+        <g>
+          <g>
+            <circle cx="192" cy="341.333" r="42.667" />
+          </g>
+        </g>
+      </symbol>
+      <symbol id="recording" viewBox="0 0 426.667 426.667">
+        <g>
+          <g>
+            <g>
+              <path
+                fill="#1F8EFA"
+                d="M213.333,106.667c-58.88,0-106.667,47.787-106.667,106.667S154.453,320,213.333,320S320,272.213,320,213.333
+				S272.213,106.667,213.333,106.667z"
+              />
+              <path
+                fill="#fff"
+                d="M213.333,0C95.467,0,0,95.467,0,213.333s95.467,213.333,213.333,213.333S426.667,331.2,426.667,213.333
+				S331.2,0,213.333,0z M213.333,384c-94.293,0-170.667-76.373-170.667-170.667S119.04,42.667,213.333,42.667
+				S384,119.04,384,213.333S307.627,384,213.333,384z"
+              />
+            </g>
           </g>
         </g>
       </symbol>
