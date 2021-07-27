@@ -18,8 +18,8 @@ body {
   background: #242e42;
   display: flex;
   flex-direction: column;
-  min-height: 870px;
-  min-width: 1030px;
+  min-height: 900px;
+  min-width: 1000px;
 }
 
 main {
@@ -204,10 +204,23 @@ aside {
 
 .consumption__by-room__content {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.room-list {
+.donut-chart {
+  width: 100%;
+  height: 100%;
+}
+
+.room-list,
+.percentage-list {
   list-style-type: none;
+}
+
+.percentage-list li {
+  margin-bottom: 13px;
+  font-size: 14px;
 }
 
 .room-list li {
