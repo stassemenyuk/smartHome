@@ -63,12 +63,16 @@ aside {
 .aside__link {
   display: flex;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 25px;
   cursor: pointer;
 }
 
 .aside__link div {
-  margin-left: 10%;
+  margin-left: 20px;
+}
+
+.aside__link__active div {
+  margin-left: 12px;
 }
 
 .aside__link__active {
@@ -92,6 +96,12 @@ aside {
 
 .main__content__header__options {
   cursor: pointer;
+}
+
+.main__content__header__options svg {
+  fill: #3e4e6c;
+  width: 20px;
+  height: 20px;
 }
 
 .main__content__block {
@@ -319,4 +329,14 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.aside__link__icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #98a7b9;
+}
+
+.aside__link__active .aside__link__icon svg {
+  fill: #1f8efa;
 }
